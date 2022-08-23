@@ -7,14 +7,18 @@ ul {
   list-style-type: none;
   color: black;
   overflow: hidden;
-  max-width: 500px;
-  margin: auto;
+  
   border-bottom: 1px solid black;
+  width: 50%;
+  	margin: auto;
+
   
 }
 
 li {
-	display: inline;}
+	display: inline;
+	float: right;
+	}
   
 li a {
   display: inline;
@@ -22,15 +26,19 @@ li a {
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
+  
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+  color: white;
 }
 
 
 </style>
+
+
 <ul> 
 <li>
 	<a class="active" id="nav" href="/board/listPageSearch?num=1"> 글 목록 </a>

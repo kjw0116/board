@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="<c:url value="/board/src/main/webapp/resources/css/mystyle.css" />" rel="stylesheet">
+
 <meta charset="UTF-8">
 <title>insert title here</title>
 
@@ -53,7 +53,7 @@ h1, #btm{
 </head>
 <body>
 <h1>
-게시판
+<a href="/">게시판</a>
 </h1>
 
 <div id="nav">
